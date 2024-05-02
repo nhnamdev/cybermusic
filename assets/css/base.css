@@ -1,0 +1,34 @@
+:root {
+    --primary-color: #d0011b;
+    --white-color: #fff;
+    --black-color: #000;
+    --backgroud-color: rgba(1, 1, 1, 0.9)
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    background-color: rgba(1, 1, 1, 0.9);
+
+}
+
+.app {
+    background-color: rgba(1, 1, 1, 0.9);
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
