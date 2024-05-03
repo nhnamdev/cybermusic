@@ -89,11 +89,7 @@
 
 
 
-.navigation_page-control {
-    margin: 20px 12px;
-
-
-}
+.navigation_page-control {}
 
 .navigation_page-btn {
     border-radius: 50%;
@@ -105,9 +101,90 @@
     color: #fff;
 }
 
-.account_name {
-    margin: 20px 12px;
+.account {
+    display: flex;
+    justify-content: space-between;
+    width: 147px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 33px;
+    background: #0A0A0A;
+    margin-right: 20px;
+}
+
+.auth_form {
+    display: flex;
+}
+
+.login {
     color: #fff;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 147px;
+    height: 41px;
+
+    flex-shrink: 0;
+    border-radius: 33px;
+    background: #0A0A0A;
+    margin-right: 20px;
+}
+
+.login :hover {
+    color: #3d3b3b;
+}
+
+.register {
+    color: #fff;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 147px;
+    height: 41px;
+
+    flex-shrink: 0;
+    border-radius: 33px;
+    background: #0A0A0A;
+    margin-right: 20px;
+}
+
+.register:hover {
+    color: #3d3b3b;
+}
+
+.login_label {
+    position: relative;
+    top: 20%;
+    font-size: 1.2rem;
+}
+
+.account_menu {
+    position: absolute;
+    display: none;
+}
+
+.account_img {
+    width: 37px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.account_name {
+    position: relative;
+    top: 20%;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.account_btn {
+    position: relative;
+    top: 20%;
+    font-size: 1.6rem;
+    margin-right: 6px;
 }
 
 .home_heading {
