@@ -24,8 +24,8 @@
 
     color: #fff;
     font-size: 1.6rem;
-    margin: 12px 16px;
-    margin-left: 25%;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .category-list {
@@ -34,8 +34,51 @@
 }
 
 .category-item {
-    font-size: 1.2rem;
-    margin: 16px 8px;
+    font-size: 1.4rem;
+    margin: 16px 40px;
+}
+
+.category-item_link {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+}
+
+
+.category-item_link-icon {
+    width: 24px;
+    height: 25.461px;
+    flex-shrink: 0;
+}
+
+.category-item_link-icon_border {
+    width: 30px;
+    height: 29.378px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+
+.category-item_link-icon_border-episode {
+    width: 30px;
+    height: 29.378px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: #004638;
+    text-align: center;
+}
+
+.category-item_link-icon_border-heart {
+    position: relative;
+    width: 8.7px;
+    height: 8.52px;
+    flex-shrink: 0;
+    left: 34%;
+    top: -2px;
+}
+
+.category-item_link-label {
+    margin-left: 10px;
 }
 
 .category-list_row2 {
@@ -71,6 +114,7 @@
     display: flex;
     justify-content: space-between;
     color: #fff;
+    margin-top: 2rem;
 }
 
 .home_single-label {
@@ -105,4 +149,54 @@
     margin: 10px 15px;
     color: #fff;
     font-size: 1.4rem;
+}
+
+.home_song_item-link {
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    margin: 20px 12px;
+
+}
+
+.home_song_item_img {
+    position: relative;
+    width: 103px;
+    height: 103px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+
+
+.home_song_item_img-icon {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.home_song_item_img-icon_file {}
+
+.home_song_item_label {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.2rem;
+    position: relative;
+    top: 36%;
+    margin-left: 0.4rem;
+}
+
+.home_song_item_img-avt {
+    border-radius: 5px;
+
+}
+
+.home_song_item_img-src {
+    width: 103px;
+    height: 103px;
+    border-radius: 5px;
 }
