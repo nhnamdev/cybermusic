@@ -8,7 +8,8 @@
     border: 10px solid;
     border-radius: 10px;
     overflow: hidden;
-    padding-bottom: 400px;
+    padding-bottom: 250px;
+
 }
 
 .home {
@@ -16,7 +17,6 @@
     height: 80%;
     border: 10px solid;
     border-radius: 10px;
-    padding-bottom: 430px;
     padding-left: 20px;
 
 }
@@ -26,7 +26,7 @@
     color: #fff;
     font-size: 1.6rem;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .category-list {
@@ -148,12 +148,25 @@
     text-align: center;
     width: 147px;
     height: 41px;
-
+    cursor: pointer;
     flex-shrink: 0;
     border-radius: 33px;
     background: #0A0A0A;
     margin-right: 20px;
 }
+
+.login_btn {
+    cursor: pointer;
+    position: relative;
+    top: 6%;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    line-height: 0.2rem
+}
+
+
 
 .login :hover {
     color: #3d3b3b;
@@ -172,17 +185,25 @@
     border-radius: 33px;
     background: #0A0A0A;
     margin-right: 20px;
+    cursor: pointer;
 }
 
-.register:hover {
+.register :hover {
     color: #3d3b3b;
 }
 
-.login_label {
+.register_btn {
+    cursor: pointer;
     position: relative;
-    top: 20%;
+    top: 6%;
     font-size: 1.2rem;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    line-height: 0.2rem
 }
+
+
 
 .account_menu {
     position: absolute;
@@ -217,7 +238,7 @@
     display: flex;
     justify-content: space-between;
     color: #fff;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .home_single-label {
@@ -244,16 +265,40 @@
 }
 
 .home_show_list {
-    margin-top: 12px 16px;
-
+    margin-top: 20px;
     display: flex;
     color: #fff;
 }
 
 .home_show_item {
+
+    text-align: center;
+    background: #181818;
+    width: 230px;
+    height: 240px;
+    flex-shrink: 0;
     margin: 10px 15px;
     color: #fff;
     font-size: 1.4rem;
+}
+
+.home_show_item-img {
+    width: 191px;
+    height: 191px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.23) 26.44%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.home_show_item_name_label {
+    margin-top: 8px;
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.42px;
 }
 
 .home_song_item-link {
@@ -304,4 +349,127 @@
     width: 103px;
     height: 103px;
     border-radius: 5px;
+}
+
+.footer {
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #181818;
+
+    background: #000;
+}
+
+.footer_song {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+.footer_song-playing {
+    display: flex;
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    width: 240px;
+    justify-content: space-between;
+}
+
+.footer_song-playing_img {
+    width: 70.772px;
+    height: 59.636px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.footer_song-playing-info {
+    position: relative;
+    top: 10%;
+    color: #FFF;
+}
+
+.footer_song-playing-info-name-song {
+
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+
+.footer_song-playing-info-name-author {
+    color: #B3B3B3;
+    font-family: "DM Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.75px;
+}
+
+.footer_song-playing-icon {
+    position: relative;
+    top: 26%;
+}
+
+.footer_song-playing-buttons {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-right: 6px;
+}
+
+
+.footer_song-playing-icon-mic {
+    margin-top: 26px;
+}
+
+.footer_song-playing-icon-playlist {
+    margin-top: 20px;
+}
+
+.footer_song-playing-audio {
+    text-align: center;
+}
+
+.footer_song-playing-audio_label {
+    color: #fff;
+    margin-top: 6px;
+}
+
+audio {
+    width: 300px;
+    /* Chiều rộng */
+    margin: 0 auto;
+    /* Căn giữa */
+    /* border: 2px solid #ccc; */
+    /* Đường viền */
+    /* border-radius: 0; */
+    /* Bo tròn viền */
+    padding: 10px;
+    /* Khoảng cách bên trong */
+    /* background-color: #1b1818; */
+    /* Màu nền */
+    /* Màu văn bản */
+}
+
+audio::-webkit-media-controls-timeline {
+    background-color: transparent;
+    /* Màu nền */
+}
+
+
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+
+    font-family: Arial, sans-serif;
+    /* Phông chữ */
+    font-size: 10px;
+    /* Cỡ chữ */
 }

@@ -157,14 +157,10 @@
                     <div class="auth_form">
 
                         <a href="" class="login">
-                            <div class="login_label">
-                                Login
-                            </div>
+                            <button id="login_btn" class="login_btn">Login</button>
                         </a>
                         <a href="" class="register">
-                            <div class="login_label">
-                                Register
-                            </div>
+                            <button id="register_btn" class="register_btn">Register</button>
                         </a>
                     </div>
                     <!-- <div class="account">
@@ -253,22 +249,26 @@
                 </div>
                 <div class="home_show_list">
                     <div class="home_show_item">
+                        <img class="home_show_item-img" src="/assets/img/hinh1.png" alt="">
                         <div class="home_show_item_name_label">
                             Weekly Motivatio...
                         </div>
 
                     </div>
                     <div class="home_show_item">
+                        <img class="home_show_item-img" src="/assets/img/h2.png" alt="">
                         <div class="home_show_item_name_label">
                             MEDITATION SELF
                         </div>
                     </div>
                     <div class="home_show_item">
+                        <img class="home_show_item-img" src="/assets/img/h3.png" alt="">
                         <div class="home_show_item_name_label">
                             Words beyond act...
                         </div>
                     </div>
                     <div class="home_show_item">
+                        <img class="home_show_item-img" src="/assets/img/h4.png" alt="">
                         <div class="home_show_item_name_label">
                             The Alexa Show
                         </div>
@@ -277,8 +277,61 @@
 
             </div>
         </div>
-        <footer class="footer"></footer>
+        <footer class="footer">
+            <div class="footer_song">
+                <div class="footer_song-playing">
+                    <img class="footer_song-playing_img" src="/assets/img/songplaying.jpg" alt="">
+                    <div class="footer_song-playing-info">
+                        <h3 class="footer_song-playing-info-name-song">Dreaming On</h3>
+                        <h4 class="footer_song-playing-info-name-author">Hoàng Nam</h4>
+                    </div>
+                    <div class="footer_song-playing-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path
+                                d="M21.1632 4.65654C20.6057 4.18347 19.9428 3.80791 19.2125 3.55147C18.4822 3.29502 17.6989 3.16274 16.9077 3.16223C15.4112 3.16244 13.9694 3.63614 12.8677 4.48956C11.7661 3.636 10.3241 3.16227 8.8276 3.16223C8.03549 3.16293 7.25138 3.29561 6.52036 3.55265C5.78935 3.80969 5.12588 4.186 4.56813 4.65994C2.18918 6.67308 2.19019 9.82186 4.57015 11.8265L12.8677 18.8184L21.1652 11.8265C23.5452 9.82186 23.5462 6.67308 21.1632 4.65654Z"
+                                fill="#1DB954" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="footer_song-playing-buttons">
+                    <div class="footer_song-playing-icon-mic">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="25" viewBox="0 0 27 25" fill="none">
+                            <path
+                                d="M21.0929 11.9608C21.9776 10.6745 22.2741 9.11553 21.9173 7.6268C21.5604 6.13808 20.5793 4.84158 19.1899 4.02251C17.8004 3.20345 16.1165 2.92892 14.5084 3.25932C12.9003 3.58971 11.4999 4.49797 10.6152 5.78428L10.5674 5.84324L10.5299 5.90827C9.67183 7.18193 9.38845 8.71662 9.74078 10.1818C9.78732 10.3829 9.84669 10.5813 9.91859 10.7759L5.52053 20.0334C5.38726 20.3135 5.36686 20.6285 5.46302 20.9213C5.55918 21.2141 5.76553 21.4653 6.04464 21.6293L7.51791 22.4978C7.79648 22.6625 8.12962 22.7294 8.45688 22.6862C8.78414 22.643 9.08383 22.4926 9.30157 22.2623L16.5019 14.6568C16.7228 14.6348 16.9421 14.6006 17.1586 14.5546C18.7418 14.2303 20.124 13.3434 21.0076 12.0848L21.0554 12.0259L21.0929 11.9608ZM20.533 7.96446C20.7604 8.90778 20.6489 9.89405 20.2155 10.7734L12.1486 6.01796C12.7323 5.38613 13.4948 4.91756 14.3504 4.66491C15.206 4.41226 16.1207 4.38554 16.9918 4.58777C17.8629 4.79 18.6558 5.21315 19.2813 5.80967C19.9069 6.40618 20.3403 7.1524 20.533 7.96446ZM8.25921 21.42L6.78594 20.5515L10.7331 12.2548C11.6763 13.4879 13.104 14.3296 14.7099 14.5991L8.25921 21.42ZM11.0898 9.90465C10.8624 8.96133 10.9738 7.97506 11.4073 7.09575L12.1486 6.01796L20.2155 10.7734C19.6318 11.4052 18.128 12.9515 17.2724 13.2042C16.4168 13.4569 15.5021 13.4836 14.631 13.2813C13.7599 13.0791 12.967 12.656 12.3414 12.0594C11.7159 11.4629 11.2824 10.7167 11.0898 9.90465Z"
+                                fill="#C4C4C4" />
+                        </svg>
+                    </div>
+                    <div class="footer_song-playing-icon-playlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="34" viewBox="0 0 37 34" fill="none">
+                            <path d="M11.5625 20.1875H32.375V22.3125H11.5625V20.1875Z" fill="#C4C4C4" />
+                            <path d="M21.9688 14.875H32.375V17H21.9688V14.875Z" fill="#C4C4C4" />
+                            <path d="M11.5625 25.5H32.375V27.625H11.5625V25.5Z" fill="#C4C4C4" />
+                            <path d="M11.5625 9.5625L18.5 14.3438L11.5625 19.125V9.5625Z" fill="#C4C4C4" />
+                        </svg>
+                    </div>
+
+                    <div class="footer_song-playing-audio">
+                        <h3 class="footer_song-playing-audio_label">Em của Ngày Hôm Qua</h3>
+                        <audio controls>
+                            <source src="/assets/audio/emcuangayhomqua.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </footer>
     </div>
+    <script>
+        // Lắng nghe sự kiện click trên nút "Login"
+        document.getElementById("login_a").onclick = function () {
+            // Chuyển hướng sang trang login.html
+            window.location.href = "login.html";
+        };
+    </script>
 </body>
 
 </html>
