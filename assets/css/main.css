@@ -16,7 +16,8 @@
     height: 80%;
     border: 10px solid;
     border-radius: 10px;
-    padding-bottom: 500px;
+    padding-bottom: 430px;
+    padding-left: 20px;
 
 }
 
@@ -89,16 +90,39 @@
 
 
 
-.navigation_page-control {}
+.navigation_page-control {
+    width: 140px;
+}
+
 
 .navigation_page-btn {
-    border-radius: 50%;
-    width: 12px;
+
+    width: 10px;
     height: 12px;
-    margin: 0 4px;
-    background-color: var(--backgroud-color);
+    margin: 0;
+    text-align: center;
     text-decoration: none;
     color: #fff;
+}
+
+.navigation_page-btn_svg {
+
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.navigation_page-icon {
+    position: relative;
+    top: -15px;
+    left: -32px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.navigation_page-icon:hover {
+    color: #3d3b3b;
 }
 
 .account {
@@ -188,6 +212,8 @@
 }
 
 .home_heading {
+    text-align: center;
+    align-items: center;
     display: flex;
     justify-content: space-between;
     color: #fff;
@@ -195,7 +221,9 @@
 }
 
 .home_single-label {
-    font-size: 2rem;
+    display: block;
+    margin: 12px;
+    font-size: 3rem;
     color: #fff;
 
 }
