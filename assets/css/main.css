@@ -167,7 +167,7 @@
 .login_btn {
     cursor: pointer;
     position: relative;
-    top: 6%;
+    top: 0;
     font-size: 1.2rem;
     background-color: transparent;
     color: #fff;
@@ -204,7 +204,7 @@
 .register_btn {
     cursor: pointer;
     position: relative;
-    top: 6%;
+    top: 0;
     font-size: 1.2rem;
     background-color: transparent;
     color: #fff;
@@ -391,7 +391,7 @@
     height: 59.636px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+
 }
 
 .footer_song-playing-info {
