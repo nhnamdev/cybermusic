@@ -29,6 +29,15 @@
     margin-top: 1rem;
 }
 
+.category_heading-label {
+    background-image: linear-gradient(#41287B, #462779, #572775, #72266E, #982565, #C82459, #E72452);
+    -webkit-background-clip: text;
+    /* Hỗ trợ cho trình duyệt WebKit */
+    background-clip: text;
+    color: transparent;
+    /* Ẩn màu chữ gốc */
+}
+
 .category-list {
     list-style: none;
     color: #fff;
