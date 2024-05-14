@@ -5,20 +5,22 @@
 .category {
     width: 30%;
     height: 80%;
-    border: 10px solid;
+    border: 5px solid;
     border-radius: 10px;
     overflow: hidden;
-    padding-bottom: 250px;
-
+    min-height: 1000px;
+    margin: 0;
 }
 
 .home {
     width: 70%;
     height: 80%;
-    border: 10px solid;
+    border: 5px solid;
+    border-left: 0 solid;
     border-radius: 10px;
     padding-left: 20px;
-
+    padding-bottom: 400px;
+    min-height: 1000px;
 }
 
 .category_heading {
